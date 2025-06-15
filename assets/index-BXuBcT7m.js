@@ -154,7 +154,7 @@ Error generating stack: `+n.message+`
           w-full sm:w-[95%] md:w-4/5 lg:w-2/3 max-w-[1400px]
           h-[80vh]
           3xl:h-[70vh]
-          max-h-768:h-[75vh]
+          max-h-768:h-[80vh]
          bg-gray-800/50 backdrop-blur-lg
          ring-1 ring-white/20 rounded-3xl
           p-6 sm:p-8 shadow-2xl flex flex-col
