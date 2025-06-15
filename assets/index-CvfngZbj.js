@@ -147,7 +147,7 @@ Error generating stack: `+n.message+`
     md:text-base
     space-x-1 sm:space-x-2 md:space-x-4
     shadow-lg
-  `,children:[rt.jsx("img",{src:"./images/logo.svg",alt:"Logo",className:"w-6 h-6"}),rt.jsx("span",{className:"text-gray-200 font-medium",children:"HYPE:"}),h?rt.jsx("span",{className:"text-gray-400 italic",children:"Loading…"}):rt.jsxs("span",{className:"text-green-400 font-semibold",children:["$",D(s)]}),rt.jsx("span",{className:"text-gray-200 font-medium",children:"⏳ SOON: soon"})]}),rt.jsx("div",{className:"fixed top-4 right-4 flex items-center space-x-2 z-50",children:rt.jsx(wA,{onAccountChange:e,onBalancesChange:l})}),rt.jsx("div",{className:"flex items-center justify-center h-screen px-4",children:rt.jsxs("div",{className:`
+  `,children:[rt.jsx("img",{src:"./images/logo.svg",alt:"Logo",className:"w-6 h-6"}),rt.jsx("span",{className:"text-gray-200 font-medium",children:"HYPE:"}),h?rt.jsx("span",{className:"text-gray-400 italic",children:"Loading…"}):rt.jsxs("span",{className:"text-green-400 font-semibold",children:["$",D(s)]}),rt.jsx("span",{className:"text-gray-200 font-medium",children:"⏳ RAGNAR: soon"})]}),rt.jsx("div",{className:"fixed top-4 right-4 flex items-center space-x-2 z-50",children:rt.jsx(wA,{onAccountChange:e,onBalancesChange:l})}),rt.jsx("div",{className:"flex items-center justify-center h-screen px-4",children:rt.jsxs("div",{className:`
           w-full sm:w-[95%] md:w-4/5 lg:w-2/3 max-w-[1400px]
           h-[81.2vh]
           3xl:h-[70vh]
