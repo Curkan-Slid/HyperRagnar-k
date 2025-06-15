@@ -94,7 +94,7 @@ Error generating stack: `+n.message+`
   `,children:"Connect Wallet"})})}function xA({account:u}){const e=[{id:"game1",label:"Snowfall",img:null,preview:"./previews/animation1.mp4",status:"New",startDate:"2025-06-20T12:00:00Z"},{id:"game2",label:"Poker Duel",img:null,preview:"./previews/animation2.mp4",status:"New",startDate:"2025-06-20T12:00:00Z"},{id:"game3",label:"Ragnar Edition",img:null,preview:"./previews/game1.mp4",status:"New",startDate:"2025-06-20T12:00:00Z"},{id:"game4",label:"Trade Clash",img:null,preview:"./previews/animation11.mp4",status:"New",startDate:"2025-06-20T12:00:00Z"},{id:"game5",label:"List of Ragnar",img:null,preview:"./previews/game1.mp4",status:"New",startDate:"2025-06-20T12:00:00Z"},{id:"soon",label:"Coming Soon",img:"./images/soon.png",preview:null,status:"Soon"}];function i(l){const s=new Date(l),o=String(s.getDate()).padStart(2,"0"),h=String(s.getMonth()+1).padStart(2,"0"),g=s.getFullYear(),y=String(s.getHours()).padStart(2,"0"),b=String(s.getMinutes()).padStart(2,"0");return`${o}.${h}.${g} ${y}:${b}`}return it.jsx("div",{className:`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 rounded-lg \r
       overflow-y-visible max-h-none\r
 \r
-      max-h-768:overflow-y-auto max-h-768:max-h-[57vh]`,children:e.map(({id:l,label:s,img:o,preview:h,status:g,link:y,startDate:b})=>it.jsxs("div",{className:`\r
+      max-h-768:overflow-y-auto max-h-768:max-h-[56vh]`,children:e.map(({id:l,label:s,img:o,preview:h,status:g,link:y,startDate:b})=>it.jsxs("div",{className:`\r
           relative\r
           bg-white/10 backdrop-blur-sm\r
           border border-white/20\r
@@ -152,7 +152,7 @@ Error generating stack: `+n.message+`
     shadow-lg
   `,children:[it.jsx("img",{src:"./images/logo.svg",alt:"Logo",className:"w-6 h-6"}),it.jsx("span",{className:"text-gray-200 font-medium",children:"HYPE:"}),h?it.jsx("span",{className:"text-gray-400 italic",children:"Loading…"}):it.jsxs("span",{className:"text-green-400 font-semibold",children:["$",S(s)]}),it.jsx("span",{className:"text-gray-200 font-medium",children:"⏳ SOON: soon"})]}),it.jsx("div",{className:"fixed top-4 right-4 flex items-center space-x-2 z-50",children:it.jsx(wA,{onAccountChange:e,onBalancesChange:l})}),it.jsx("div",{className:"flex items-center justify-center h-screen px-4",children:it.jsxs("div",{className:`
           w-full sm:w-[95%] md:w-4/5 lg:w-2/3 max-w-[1400px]
-          h-[81.1vh]
+          h-[81.2vh]
           3xl:h-[70vh]
           max-h-768:h-[80vh]
          bg-gray-800/50 backdrop-blur-lg
